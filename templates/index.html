@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLP Meme Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="header">
+        <h1>NLP Meme Generator</h1>
+        <h3>By Armen Grigoryan and Inga Grigoryan</h3>
+      </div>
+      <div id="instruction">
+        Write a sentence and we will generate the memes right away!
+      </div>
+      <div id="input-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Enter a sentence..."
+          autocomplete="off"
+        />
+        <button id="submit-btn">Generate</button>
+      </div>
+      <div id="error-message">Please enter a sentence before submitting.</div>
+      <div id="slider-section">
+        <div id="emotion-message"></div>
+        <div id="slider-container">
+          <button class="nav-btn" id="prev-btn">&#9664;</button>
+          <button class="nav-btn" id="next-btn">&#9654;</button>
+        </div>
+      </div>
+    </div>
+    <script src="static/script.js"></script>
+  </body>
+</html>
